@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Trilha 03 - UI config
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.trilha03:trilha_03.ui.config:1.0.0-SNAPSHOT
+Content-Package-Description: UI config package for Trilha 03
+Content-Package-Roots: /apps/trilha_03/osgiconfig
+

@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Created by https://www.gitignore.io/api/eclipse,java,maven
 
 ### Eclipse ###
@@ -47,6 +49,16 @@ local.properties
 
 ### Java ###
 *.class
+=======
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+>>>>>>> bca75e4ba1e8c2f00011e6b8a10184755f207825
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -54,55 +66,9 @@ local.properties
 # Package Files #
 *.jar
 *.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
 
 
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+# Resolved .gitignore file
+file-to-ignore-local
 
 
-### Vault ###
-.vlt
-
-
-### IntelliJ ###
-.idea/
-*.iml
-
-
-### Node.js ###
-
-# Log files
-*.log
-
-# NPM
-node_modules/
-yarn.lock
-
-# Webpack
-build/
-dist/
-actions/common/
-
-# Frontend Maven Plugin
-node/
-
-# Tests
-coverage/
-reports/
-
-# Others
-dispatcher/src/conf.d/variables/default.vars
-ui.tests/test-module/assets/form/themes/**/*diff.png
-ui.tests/test-module/assets/form/themes/**/*current.png

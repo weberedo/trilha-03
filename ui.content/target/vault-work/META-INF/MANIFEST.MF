@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Trilha 03 - UI content
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.trilha03:trilha_03.ui.content:1.0.0-SNAPSHOT
+Content-Package-Description: UI content package for Trilha 03
+Content-Package-Dependencies: com.trilha03:trilha_03.ui.apps:1.0.0-SNAPS
+ HOT
+Content-Package-Dependencies-Locations: com.trilha03:trilha_03.ui.apps:1
+ .0.0-SNAPSHOT=maven:com.trilha03:trilha_03.ui.apps:1.0.0-SNAPSHOT:zip
+Content-Package-Roots: /conf/trilha_03,/content/dam/trilha_03,/content/d
+ am/trilha_03/asset.jpg,/content/experience-fragments/trilha_03,/content
+ /trilha_03
+

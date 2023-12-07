@@ -1,0 +1,6 @@
+com/trilha03/core/filters/LoggingFilterTest.class
+com/trilha03/core/servlets/SimpleServletTest.class
+com/trilha03/core/testcontext/AppAemContext$1.class
+com/trilha03/core/listeners/SimpleResourceListenerTest.class
+com/trilha03/core/testcontext/AppAemContext.class
+com/trilha03/core/models/HelloWorldModelTest.class

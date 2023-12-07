@@ -1,0 +1,12 @@
+
+<div class="cmp-modelteste2" data-cmp-is="modelteste2">
+    <h2 class="cmp-modelteste2__title">Componente Model Teste 2</h2>
+    <div class="cmp-modelteste2__item" data-sly-test="${properties.text}">
+        <p class="cmp-modelteste2__item-label">Text property:</p>
+        <pre class="cmp-modelteste2__item-output" data-cmp-hook-modelteste2="property">${properties.text}</pre>
+    </div>
+    <div class="cmp-modelteste2__item" data-sly-use.model="com.trilha03.core.models.ModelTeste2" data-sly-test="${model.message}">
+        <p class="cmp-modelteste2__item-label">Mensagem:</p>
+        <pre class="cmp-modelteste2__item-output"data-cmp-hook-modelteste2="model">${model.message}</pre>
+    </div>
+</div>

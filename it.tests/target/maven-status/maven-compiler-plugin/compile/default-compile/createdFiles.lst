@@ -1,0 +1,4 @@
+com/trilha03/it/tests/PublishPageValidationIT.class
+com/trilha03/it/tests/CreatePageIT.class
+com/trilha03/it/tests/HtmlUnitClient.class
+com/trilha03/it/tests/GetPageIT.class

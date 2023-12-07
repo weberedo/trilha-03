@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Trilha 03 - UI config</comment>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2023-12-06T18:03:52.776Z</entry>
+<entry key="groupId">com.trilha03</entry>
+<entry key="name">trilha_03.ui.config</entry>
+<entry key="description">UI config package for Trilha 03</entry>
+<entry key="artifactId">trilha_03.ui.config</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.trilha03</entry>
+</properties>

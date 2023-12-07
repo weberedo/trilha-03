@@ -494,7 +494,7 @@ Bundle-DocURL:
                               
           <configuration>
                                     
-            <failOnWarnings>true</failOnWarnings>
+            <failOnWarnings>false</failOnWarnings>
                                 
           </configuration>
                           

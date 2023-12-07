@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Bundle-Category: Trilha 03
+Bundle-Description: Core bundle for Trilha 03
+Bundle-ManifestVersion: 2
+Bundle-Name: Trilha 03 - Core
+Bundle-SymbolicName: trilha_03.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.trilha03.core.filters;version="1.0";uses:="javax.s
+ ervlet",com.trilha03.core.listeners;version="1.0";uses:="org.apache.s
+ ling.api.resource.observation",com.trilha03.core.models;version="1.0"
+ ;uses:="javax.annotation,org.apache.sling.api,org.apache.sling.api.re
+ source,org.apache.sling.models.annotations,org.apache.sling.models.an
+ notations.injectorspecific",com.trilha03.core.schedulers;version="1.0
+ ",com.trilha03.core.servlets;version="1.0";uses:="javax.servlet,org.a
+ pache.sling.api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
+ rsion="[1.29,2)",com.trilha03.core.filters;version="[1.0,2)",com.tril
+ ha03.core.listeners;version="[1.0,2)",com.trilha03.core.models;versio
+ n="[1.0,2)",com.trilha03.core.servlets;version="[1.0,2)",javax.servle
+ t;version="[3.1,4)",org.apache.sling.api;version="[2.3,3)",org.apache
+ .sling.api.request;version="[2.4,3)",org.apache.sling.api.resource;ve
+ rsion="[2.12,3)",org.apache.sling.api.resource.observation;version="[
+ 1.2,2)",org.apache.sling.api.servlets;version="[2.3,3)",org.apache.sl
+ ing.models.annotations;version="[1.5,2)",org.apache.sling.models.anno
+ tations.injectorspecific;version="[1.1,2)",org.apache.sling.models.fa
+ ctory;version="[1.4,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="javax.servl
+ et.Filter";uses:="javax.servlet",osgi.service;objectClass:List<String
+ >="javax.servlet.Servlet";uses:="javax.servlet",osgi.service;objectCl
+ ass:List<String>="org.apache.sling.api.resource.observation.ResourceC
+ hangeListener";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.service;filter:="(objectClass=org.apache.slin
+ g.models.factory.ModelFactory)";effective:=active,osgi.extender;filte
+ r:="(&(osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0
+ )))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.trilha03.core.filters.LoggingFilter.xm
+ l,OSGI-INF/com.trilha03.core.listeners.SimpleResourceListener.xml,OSG
+ I-INF/com.trilha03.core.servlets.SimpleServlet.xml,OSGI-INF/com.trilh
+ a03.core.servlets.TesteServlet.xml
+Sling-Model-Classes: com.trilha03.core.models.HelloWorldModel,com.tril
+ ha03.core.models.ModelTeste,com.trilha03.core.models.ModelTeste2,com.
+ trilha03.core.models.RandomNames
+
